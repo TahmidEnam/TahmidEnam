@@ -53,7 +53,7 @@ const HeroSection = () => {
             <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-primary/10 rounded-full blur-3xl opacity-30"></div>
             <Avatar className="w-64 h-64 rounded-full border-4 border-white shadow-xl">
               <AvatarImage
-                src="/tahmid-photo.jpg"
+                src="tahmid-photo.jpg"
                 alt="Tahmid Enam Shrestha"
               />
               <AvatarFallback>TAHMID</AvatarFallback>
