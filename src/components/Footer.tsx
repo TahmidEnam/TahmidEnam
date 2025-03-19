@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
             <a href="#" className="text-xl font-bold tracking-tighter">
-              Tahmid Enam
+              Tahmid Enam Shrestha
             </a>
             <p className="text-sm text-muted-foreground mt-2">
               Advancing AI research through rigorous investigation.
@@ -35,7 +35,7 @@ const Footer = () => {
         
         <div className="border-t border-border mt-8 pt-8 text-center md:flex md:justify-between md:text-left">
           <p className="text-sm text-muted-foreground">
-            © {currentYear} Tahmid Enam. All rights reserved.
+            © {currentYear} Tahmid Enam Shrestha. All rights reserved.
           </p>
           <p className="text-sm text-muted-foreground mt-2 md:mt-0">
             Developed by Abu Sayem
