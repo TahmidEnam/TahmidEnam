@@ -7,6 +7,8 @@ import ResearchSection from '@/components/ResearchSection';
 import ProjectsSection from '@/components/ProjectsSection';
 import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
+import AcademicsSection from '@/components/AcademicsSection';
+import ProgrammingSkillsSection from '@/components/ProgrammingSkillsSection';
 
 const Index = () => {
   // Add smooth scrolling for anchor links with offset for fixed header
@@ -41,6 +43,8 @@ const Index = () => {
       <Navbar />
       <HeroSection />
       <AboutSection />
+      <AcademicsSection />
+      <ProgrammingSkillsSection />
       <ResearchSection />
       {/* <ProjectsSection /> */}
       <ContactSection />

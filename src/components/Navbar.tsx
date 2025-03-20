@@ -30,6 +30,8 @@ const Navbar = () => {
 
   const navLinks = [
     { name: "About", href: "#about" },
+    { name: "Academics", href: "#academics" },
+    { name: "Skills", href: "#skills" },
     { name: "Research", href: "#research" },
     { name: "Projects", href: "#projects" },
     { name: "Contact", href: "#contact" },
@@ -79,9 +81,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div
-          className="fixed inset-0 w-full h-full bg-white/95 backdrop-blur-md z-[60] flex flex-col items-center justify-center space-y-8 transition-all duration-300 ease-in-out"
-        >
+        <div className="fixed inset-0 w-full h-full bg-white/95 backdrop-blur-md z-[60] flex flex-col items-center justify-center space-y-8 transition-all duration-300 ease-in-out">
           {/* Close Button */}
           <button
             className="absolute top-6 right-6 focus:outline-none"
